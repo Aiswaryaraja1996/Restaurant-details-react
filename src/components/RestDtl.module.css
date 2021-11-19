@@ -1,0 +1,9 @@
+.mainCont button {
+  margin: 5px;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
