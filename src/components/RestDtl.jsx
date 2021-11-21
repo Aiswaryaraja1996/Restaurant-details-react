@@ -2,11 +2,13 @@ import { useState } from "react";
 import data from "../db.json";
 import RestCard from "./RestCard";
 import style from "./RestDtl.module.css";
+import Pagination from "./Pagination";
 
 const RestDtl = () => {
   const [filter, setFilter] = useState(0);
   const [pay, setPay] = useState("all");
   const [cost, setCost] = useState("");
+  const [page, setPage] = useState(1);
   const handleRating = (n) => {
     setFilter(n);
   };
@@ -18,6 +20,13 @@ const RestDtl = () => {
   const handleCost = (n) => {
     setCost(n);
   };
+
+  const perPage = 5;
+  const filterRes = data.filter(
+    (value,i) =>  i >= (page-1)*perPage && i < page * perPage
+  );
+
+  console.log(filterRes);
   return (
     <div className={style.mainCont}>
       <h1 style={{ textAlign: "center" }}>RESTAURANT DETAILS</h1>
@@ -42,7 +51,14 @@ const RestDtl = () => {
           <button onClick={() => handleCost("Desc")}>Desc</button>
         </div>
       </div>
-      {data
+      <div className={style.btnCont}>
+        <Pagination
+          currPage={page}
+          total={4}
+          onPageChange={(page) => setPage(page)}
+        ></Pagination>
+      </div>
+      {filterRes
         .filter(({ rating, payment_methods }) => {
           const { card, cash } = payment_methods;
           let pymnt = true;

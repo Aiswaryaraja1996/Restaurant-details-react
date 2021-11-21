@@ -2,6 +2,7 @@
     {
         "name": "URU Brew Park",
         "id": 1,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -23,6 +24,7 @@
     {
         "name": "Kovai Alangar vilas",
         "id": 2,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -44,6 +46,7 @@
     {
         "name": "The Marina",
         "id": 3,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -65,6 +68,7 @@
     {
         "name": "Southern Spice",
         "id": 4,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -86,6 +90,7 @@
     {
         "name": "ITC Grand Chola",
         "id": 5,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -107,6 +112,7 @@
     {
         "name": "The Raintree",
         "id": 6,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -128,6 +134,7 @@
     {
         "name": "Chettinadu",
         "id": 7,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -149,6 +156,7 @@
     {
         "name": "The Red Box",
         "id": 8,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -170,6 +178,7 @@
     {
         "name": "Hotel Crescent",
         "id": 9,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -191,6 +200,7 @@
     {
         "name": "Food @ Finger",
         "id": 10,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -212,6 +222,7 @@
     {
         "name": "Kobe Sizzlers",
         "id": 11,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -233,6 +244,7 @@
     {
         "name": "Parambriym",
         "id": 12,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -254,6 +266,7 @@
     {
         "name": "Wok Monk",
         "id": 13,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -275,6 +288,7 @@
     {
         "name": "High on Grills",
         "id": 14,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -296,6 +310,7 @@
     {
         "name": "Frozen Bottle",
         "id": 15,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -317,6 +332,7 @@
     {
         "name": "Kebabery",
         "id": 16,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -338,6 +354,7 @@
     {
         "name": "Loretta's",
         "id": 17,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -359,6 +376,7 @@
     {
         "name": "The Baker's Nook",
         "id": 18,
+        "fav": false,
         "cuisine": [
             "Deserts"
         ],
@@ -377,6 +395,7 @@
     {
         "name": "Moorthy Cafe",
         "id": 19,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",
@@ -398,6 +417,7 @@
     {
         "name": "Little Hut",
         "id": 20,
+        "fav": false,
         "cuisine": [
             "Continental",
             "Asian",

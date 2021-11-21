@@ -1,6 +1,10 @@
 import { ChevronRight } from "react-bootstrap-icons";
+import { Star } from "react-bootstrap-icons";
+import { StarFill } from "react-bootstrap-icons";
+import { useState } from "react";
 
 const RestCard = ({ cont }) => {
+  const [fav, setFav] = useState(cont.fav);
   return (
     <div
       style={{
@@ -101,10 +105,28 @@ const RestCard = ({ cont }) => {
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-end",
+          justifyContent: "space-between",
           borderTop: "1px solid #BAC1C8",
         }}
       >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginLeft: "20px",
+          }}
+        >
+          {!fav ? (
+            <Star onClick={() => setFav(!cont.fav)} color="#72A02B"></Star>
+          ) : (
+            <StarFill
+              onClick={() => setFav(cont.fav)}
+              fill="#72A02B"
+            ></StarFill>
+          )}
+        </div>
+
         <div
           style={{
             backgroundColor: "#E9F4EC",
